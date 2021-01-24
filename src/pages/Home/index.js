@@ -12,9 +12,10 @@ function App(props) {
     axios.get(`https://api.github.com/users/${usuario}/repos`).then(response => {
       const repositories = response.data;
       const repositoriesName = [];
+      // eslint-disable-next-line
       repositories.map((repository) => {
         repositoriesName.push(repository.name);
-    });
+      });
     localStorage.setItem('repositoriesName', JSON.stringify(repositoriesName));
     setErro(false);
     history.push('/repositories');
