@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+Projeto do Curso Gama
+
+Desenvolver busca por meio do nome do usuário Github em React, HTML, CSS, JS
+
+Acesse: https://buscausuariogit-react.netlify.app/
+
+![image](https://github.com/datilasilva/gamagit/blob/main/buscausuariogit...png)
+
+
+
+
+
+
+
+
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
